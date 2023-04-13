@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="logo.css" />
+    <link rel="stylesheet" href="intro-img.css" />
+    <link rel="stylesheet" href="toppings.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+
+    
+</head>
+<body>
+
+
+  <div class="logo">
+    <div class="pizza-slice">
+      <div class="pepperoni pepperoni-0"></div>
+      <div class="pepperoni pepperoni-1"></div>
+      <div class="pepperoni pepperoni-2"></div>
+      <div class="pepperoni pepperoni-3"></div>
+    </div>
+    <div class="pizza-text"> Tiny Dog PIZZA</div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="background-image"></div>
+  
+      <div class="content">
+          <h1>Welcome to Tiny Dog Pizza</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget enim vel nulla fringilla commodo. Suspendisse sit amet nulla condimentum, aliquam quam ut, blandit tortor. Sed vestibulum, dolor et ultricies porttitor, quam turpis aliquam massa, at faucibus felis nulla eu magna. Etiam vel justo in sapien finibus semper. Vivamus eget malesuada nisl, vel pulvinar purus. Praesent a lorem velit. Vestibulum in quam ipsum. Sed bibendum odio quis dui tincidunt, non sodales mauris rhoncus.</p>
+      </div>
+  
+    
+  
+  <section id="pizza-toppings">
+    <h2>Build Pizza</h2>
+    <p>Select your crust:</p>
+    <form id="crust-form">
+      <label for="crust-pan">
+        <input type="radio" id="crust-pan" name="crust" value="pan" data-price="6">
+        Pan Crust Pizza - $6
+      </label>
+      <label for="crust-thin">
+        <input type="radio" id="crust-thin" name="crust" value="thin" data-price="5">
+        Thin Crust - $5
+      </label>
+      <label for="crust-stuffed">
+        <input type="radio" id="crust-stuffed" name="crust" value="stuffed" data-price="8">
+        Stuffed Crust - $8
+      </label>
+    </form>
+    <p>Select your sauce:</p>
+    <form id="sauce-form">
+      <label for="sauce-none">
+        <input type="radio" id="sauce-none" name="sauce" value="none" data-price="0">
+        No sauce - $0
+      </label>
+      <label for="sauce-white">
+        <input type="radio" id="sauce-white" name="sauce" value="white" data-price="1">
+        White sauce - $1
+      </label>
+      <label for="sauce-red">
+        <input type="radio" id="sauce-red" name="sauce" value="red" data-price="1">
+        Red sauce - $1
+      </label>
+    </form>
+    <p>Select the toppings you'd like on your pizza:</p>
+    <form id="toppings-form">
+      <label for="topping-pepperoni">
+        <input type="checkbox" id="topping-pepperoni" name="toppings" value="pepperoni" data-price="1">
+        Pepperoni - $1
+      </label>
+      <label for="topping-mushrooms">
+        <input type="checkbox" id="topping-mushrooms" name="toppings" value="mushrooms" data-price="1">
+        Mushrooms - $1
+      </label>
+      <label for="topping-onions">
+        <input type="checkbox" id="topping-onions" name="toppings" value="onions" data-price="1">
+        Onions - $1
+      </label>
+      <label for="topping-sausage">
+        <input type="checkbox" id="topping-sausage" name="toppings" value="sausage" data-price="1">
+        Sausage - $1
+      </label>
+      <label for="topping-bell-peppers">
+        <input type="checkbox" id="topping-bell-peppers" name="toppings" value="bell-peppers" data-price="1">
+        Bell Peppers - $1
+      </label>
+    </form> 
+  
+    <h2>Your Pizza</h2>
+    <p id="selected-toppings">No toppings /Crust/Sauce selected.</p>
+    <p id="total-price">Total: $0</p>
+  </section>
+  <footer>
+        <nav>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Data Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </nav>
+        <p>&copy; 2023 SimpleCod1ing</p>
+      </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+  min-height: 100%;
+}
+
+.background-image {
+	background-image: url('https://www.wallpapertip.com/wmimgs/20-202456_pizza-restaurant-background.jpg');
+	background-size: cover;
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	padding: 50px;
+	background-color: white;
+  margin-bottom: 70px;
+	
+}
+
+.content h1 {
+  text-align: center;
+}

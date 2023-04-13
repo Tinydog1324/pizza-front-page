@@ -1,0 +1,59 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 20vh;
+}
+
+.pizza-slice {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 100px 0;
+  border-color: transparent #FFC107 transparent transparent;
+  transform: rotate(-45deg);
+  position: relative;
+}
+
+
+.pepperoni-0 {
+  top: 10px;
+  left: 30px;
+  width: 15px;
+  height: 10px;
+}
+
+.pepperoni {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #E63F3F;
+  box-shadow: 0 2px 0 #A22626;
+}
+
+.pepperoni-1 {
+  top: 25px;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+.pepperoni-2 {
+  top: 50px;
+  left: 40px;
+  width: 12px;
+  height: 12px;
+}
+
+.pepperoni-3 {
+  top: 70px;
+  left: 40px;
+  width: 8px;
+  height: 8px;
+}
+
+.pizza-text {
+  margin-left: 20px;
+}

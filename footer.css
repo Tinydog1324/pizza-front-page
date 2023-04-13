@@ -1,0 +1,25 @@
+footer {
+        background-color: #F4F4F4;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+      }
+      footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      footer li {
+        margin-right: 10px;
+      }
+      footer a {
+        color: #385899;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }

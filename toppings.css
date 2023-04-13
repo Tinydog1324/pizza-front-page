@@ -1,0 +1,57 @@
+#pizza-toppings {
+  
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: lightgrey;
+    padding-left: 70px;
+  }
+  
+  /* Heading styles */
+  #pizza-toppings h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #F80000;
+  }
+  
+  /* Form styles */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  form label input[type="radio"],
+  form label input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form label span {
+    font-weight: normal;
+  }
+  
+  /* Price styles */
+  form label span.price {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  /* Selected toppings */
+  #selected-toppings {
+    margin-top: 30px;
+  }
+  
+  #selected-toppings strong {
+    font-weight: bold;
+  }
+  
+  /* Total price */
+  #total-price {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #F80000;
+  }
+  
+  
